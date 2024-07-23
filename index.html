@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camelia's Portofolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Clear+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="main">
+  <a id="top"></a>
+<header>
+  <nav class="navbar navbar-expand-sm bg-info">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <img src="Assets/Camelia.png" alt="Camelia pic"height="100" width="110"> 
+          <li class="nav-item">
+            <a class="nav-link" href="#profile">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#portfolio-item" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              My work
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#project1">Project 1</a></li>
+              <li><a class="dropdown-item" href="#projects">Project 2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="image">
+  <img src="Assets/Cami.png" alt="me" height="350" width="350">
+</div>
+<section>
+  <h2>Hi There! I'm Camelia.</h2>
+  <h5>I'm a Web Developer.</h5>
+  <section class="getintouch">
+  <button id="bt"><a href="#contact-form">Get in Touch</a></button>
+</section>
+<div class="white-space"></div>
+
+<header>
+  <h1>About me</h1>
+</header>
+<div id="profile"> 
+  <br>
+  <br>
+
+  <p> Hi,I'm Camelia and I live in the big rainy beautiful London! I'm a tech trainee at La Fosse Academy. </p>
+  <p>I love travelling, cooking and coffee.</p>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="experience">
+  <header>
+    <h1 class="text-center">My Experience</h1>
+  </header>
+<p>My expertise lies within the management industry primarly, as I used to be a hotel manager, and property manager for over a decade.I've always been intrigue and fascinated about the IT industry and I've decided is time for a change, something that will bring me more joy and more flexibility. </p>
+<p>My knoledge lies within front-end web apps, and the main languages in my tech stack are JavaScript, React, and of course HTML/CSS. I'm a lifelong learner.</p>
+</div>
+<hr>
+<br>
+
+<div id="skills">
+<header>
+  <h1>Skills</h1>
+</header>
+  <p>I am a developer with a passion for learning new things. I have knowledge in HTML,CSS,Javascript,PHP</p>
+  <img src=" favicon.jpg" alt="html">
+</div>
+
+<br>
+<hr>
+
+<div id="projects">
+  <header>
+    <h1>My Portfolio</h1>
+  </header>
+    <div id="project1">
+        <img src="" alt="Project 1">
+        <div class="portfolio-item-details">
+            <h2>Project 1</h2>
+            <p>Description of Project 1.</p>
+        </div>
+    </div>
+  <br>
+  <hr>
+  <br>
+
+    <div id="project2">
+        <img src="" alt="Project 2">
+        <div class="portfolio-item-details">
+            <h2>Project 2</h2>
+            <p>Description of Project 2.</p>
+        </div>
+
+      </div>
+    
+<br>
+
+<br>
+
+<hr>
+
+<div class="container">
+  <header>
+    <h1>Contact me</h1>
+  </header>
+  <form id="contact-form" method="post" action="form.php">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+  </form>
+  <div id="response"></div>
+</div>
+
+</section>
+
+<br>
+
+<footer> 
+  <div class="footer">
+    <a href="#top" id="backToTop">Go back to top</a>
+    
+  <p class="right"><strong>@copyright Camelia Baronescu</strong></p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
